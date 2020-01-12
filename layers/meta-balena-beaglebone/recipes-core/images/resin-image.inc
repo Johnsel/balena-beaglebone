@@ -1,8 +1,14 @@
+IMAGE_FSTYPES_append_ti-am335x-evm = " resinos-img resinos-img.bmap"
 IMAGE_FSTYPES_append_beaglebone = " resinos-img resinos-img.bmap"
 IMAGE_FSTYPES_append_beaglebone-pocket = " resinos-img"
 IMAGE_FSTYPES_append_beagleboard-xm = " resinos-img"
 
 # Customize resinos-img
+RESIN_BOOT_PARTITION_FILES_ti-am335x-evm = " \
+    MLO: \
+    u-boot.img: \
+    "
+
 RESIN_BOOT_PARTITION_FILES_beaglebone = " \
     MLO: \
     u-boot.img: \

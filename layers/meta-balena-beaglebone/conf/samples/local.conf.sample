@@ -4,6 +4,7 @@
 #MACHINE ?= "beaglebone-green-wifi"
 #MACHINE ?= "beaglebone-pocket"
 #MACHINE ?= "beagleboard-xm"
+#MACHINE ?= "ti-am335x-evm"
 
 # We use the overlayfs docker storage driver for PocketBeagle and BeagleBoard-XM
 BALENA_STORAGE_beaglebone-pocket = "overlay2"
